@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+button {
+  width: 75px; /*! Задаем ширину 75пикселей !*/
+  height: 75px; /*! Задаем высоту 75пикселей !*/
+  cursor: pointer; /*! Задаем стиль курсора_ при наведении на обЪект !*/
+  display: block; /*! Задаем, чтобы на странице отображался как блок !*/
+  margin-left: auto; /*! Задаем автоматические отступы слева !*/
+  margin-right: auto; /*! Задаем автоматические отступы справа !*/
+  color: white; /*! Задаем белый цвет текста !*/
+  background-color: orange; /*! Задаем фоновый цвет !*/
+  border-color: white; /*! Задаем, чтобы края были белыми !*/
+  border-style: solid; /*! Задаем стиль обводки блока !*/
+  border-width: 3px;  /*! Задаем ширину обводки блока !*/
+  border-radius: 10px;  /*! Задаем скругление для кнопки !*/
+  margin-top: 50px;  /*! Делаем отступ сверху !*/
+}
